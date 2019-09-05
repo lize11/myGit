@@ -9,7 +9,7 @@
 		<typeAlias type="com.bw.entity.Industry" alias="industry"/>
 		<typeAlias type="com.bw.entity.Job" alias="job"/>
 	</typeAliases>
-	
+	      
 	<!-- 添加分页插件 -->
 	<plugins>
 	     <plugin interceptor="com.github.pagehelper.PageHelper">
@@ -17,7 +17,7 @@
 	     </plugin>
 	</plugins>
 	
-	<mappers>
+	<mappers>f
 		<mapper resource="com/bw/mapper/JobMapper.xml"></mapper>
 	</mappers>
 	
